@@ -17,9 +17,9 @@ terraform {
 }
 
 provider "aws" {
-  profile = "fastc"
+  # profile = "fastc"
   region = "us-east-1"
-  alias = "virginia"
+  alias  = "virginia"
 }
 
 provider "kubernetes" {
