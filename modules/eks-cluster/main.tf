@@ -72,14 +72,14 @@ module "eks" {
 
   aws_auth_users = [
     {
-      userarn  = "arn:aws:iam::kk_labs_user_418240:user/admin"
+      userarn  = "arn:aws:iam::416452986212:user/admin"
       username = "admin"
       groups   = ["system:masters"]
     },
   ]
 
   aws_auth_accounts = [
-    "kk_labs_user_418240"
+    "416452986212"
   ]
 }
 
