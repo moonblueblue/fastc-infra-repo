@@ -3,8 +3,8 @@ module "eks" {
   source          = "./modules/eks-cluster"
   cluster_name    = "fast-cluster"
   cluster_version = "1.24"
-  vpc_id          = "vpc-0abe368f514a7c3dd"
+  vpc_id          = "vpc-05ce7ecd4c3809f25"
 
-  private_subnets = ["subnet-006f88b4eebc465fb", "subnet-090bb9013cccefe11"]
-  public_subnets  = ["subnet-0e01747a934debe7d", "subnet-03e5dd245ccf4738f"]
+  private_subnets = ["subnet-062493e6fc26e44cd", "subnet-0e368500d7853fe15"]
+  public_subnets  = ["subnet-0551a9316cd96dc31", "subnet-01d1bfc7bdff657b7"]
 }
